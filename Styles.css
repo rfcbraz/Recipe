@@ -1,0 +1,98 @@
+body {
+  background-color: #b99d6c;
+}
+
+.image img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 16%;
+  border-style: ridge;
+  border-radius: 10px;
+}
+.img{
+  border-style: ridge;
+  border-radius: 10px;
+  margin-left: 50px;
+}
+.img:hover{
+  transform: scale(1.5);
+}
+
+hr {
+  border-width: 10px;
+  border-color: grey;
+  border-style: dotted none none none;
+  height: 1px;
+  width: 10%
+}
+
+main article {
+  display: flex;
+}
+
+nav {
+  height: 50px;
+  background-color: #4d0303;
+  width: 100%;
+  line-height: 50px;
+  border-radius: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  margin-top: 0;
+}
+
+nav li {
+  font-size: 30px;
+  margin: 0 10px;
+}
+
+nav li:hover {
+  background-color: brown;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 0 10px;
+}
+
+.title {
+  text-align: center;
+}
+
+.blog {
+  width: 50%;
+  font-size: 20px;
+  margin-left: 200px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-right: 200px;
+  border-style: ridge;
+}
+
+.card p {
+  text-align: center;
+}
+
+.strawberry{
+  text-align: center;
+}
+footer {
+  text-align: center;
+  color: white;
+  height: 50px;
+  background-color: #4d0303;
+  width: 100%;
+  line-height: 50px;
+  border-radius: 10px;
+}
